@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Priority Cycle</title>
+
+        <link rel="stylesheet" href="priority.css"/>
+    </head>
+    <body>
+        <section>
+            <!-- TODO HTML -->
+            <div class="container_todo">
+                <div class="inner_container">
+                    <h2 class="main_label" id="skills_label">Skills</h2>
+                    <div class="todo_wrap" id="todo_wrap_skills">
+                        <div class="display" id="skills_display"></div>
+                        <input type="text" class="todo_name" id="todo_name_skills">
+                        <div class="buttonContainer" id="skills_button_container">
+                            <button class="add_todo" id="skills_add_todo">
+                                <img class="plusIcon" src="images/plus43.png" alt="plus">
+                            </button>
+                            <button class="hide_todo" id="skills_hide_todo">
+                                <img class="hideIcon" src="images/hidden43.png" alt="hide">
+                            </button>
+                            <button class="next_todo" id="skills_next_todo">
+                                <img class="nextIcon" src="images/next43.png" alt="next">
+                            </button>
+                        </div>
+                        <div class="wrapper" id="wrapperSkills">
+                            <!-- will be populated by js -->
+                        </div>
+                    </div>
+                </div>
+                <div class="inner_container">
+                    <h2 class="main_label" id="projects_label">Projects</h2>
+                    <div class="todo_wrap" id="todo_wrap_projects">
+                        <div class="display" id="projects_display"></div>
+                        <input type="text" class="todo_name" id="todo_name_projects">
+                        <div class="buttonContainer" id="projects_button_container">
+                            <button class="add_todo" id="projects_add_todo">
+                                <img class="plusIcon" src="images/plus43.png" alt="plus">
+                            </button>
+                            <button class="hide_todo" id="projects_hide_todo">
+                                <img class="hideIcon" src="images/hidden43.png" alt="hide">
+                            </button>
+                            <button class="next_todo" id="projects_next_todo">
+                                <img class="nextIcon" src="images/next43.png" alt="next">
+                            </button>
+                        </div>
+                        <div class="wrapper" id="wrapperProjects">
+                            <!-- will be populated by js -->
+                        </div>
+                    </div>
+                </div>		
+            </div>
+
+            <!-- TIMER HTML -->
+            <div class="container_section">
+                <div class="container_timer">
+                    <div class="painel">
+                        <button id="work">
+                            <img class="workIcon" src="images/play47.png" alt="work">
+                        </button>
+                        <button id="break">
+                            <img class="breakIcon" src="images/time47.png" alt="break">
+                        </button>
+                        <button id="reset">
+                            <img class="restartIcon" src="images/restart47.png" alt="restart">
+                        </button>
+                    </div>
+
+                    <div class="timer">
+                        <div class="circle">
+                            <div class="time">
+                                <p id="minutes"></p>
+                                <p id="colon">:</p>
+                                <p id="seconds"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script src="libraries/Sortable-master/Sortable.js"></script>
+        <script src="priority.js"></script>
+    </body>
+</html>
