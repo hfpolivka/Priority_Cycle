@@ -2,7 +2,7 @@
 
 ### How to Set Up
 
-+ Clone this repository to whichever directory you choose.
++ Clone repository to desired location.
 + Open Google Chrome, click the three dots in the upper right, and go to Extensions.
 + Enable Developer Mode in the upper right, then click 'Load Unpacked'.
 + Select the folder (that was just cloned) for the extension and pin it to the search bar for convenience.
