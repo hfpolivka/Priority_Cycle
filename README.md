@@ -30,7 +30,7 @@ The extension also comes with a Pomodoro timer that can run for 25 minutes or 5 
 <ins>Sortable.js</ins> : This library was used to implement the reorder functionality for the lists, so that the user can arrange their items however they see fit.<br>
 <br>
 <ins>Chrome Local Storage</ins> : This function of the Chrome browser allows items in each list to be stored in Chrome so that they are not lost on reload (localStorage). It also helps manage values for the timer (chrome.storage.local).<br>
-**NOTE** : Two different declarations of Chrome's storage are declared in this project and do not work the exact same way.<br>
+**NOTE** : Two different declarations of Chrome's storage are used in this project and do not work the exact same way.<br>
 <br>
 <ins>Chrome Notifications</ins> : This function of the Chrome browser allows for notifications to be sent directly to the Windows notification center (this.registration.showNotification). This is utilized when each of the timers end, sending a message to the user upon completion.<br>
 <br>
